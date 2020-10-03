@@ -5,7 +5,7 @@ import numpy as np
 def run():
 
     ''' initializes the neural network '''
-    neural_network = Network.Network(layers=[2,8,1], learning_rate=0.05, iterations=50000)
+    neural_network = Network.Network(layers=[2,8,1], learning_rate=0.05, iterations=-1)
 
     ''' OR-Gate Training Data '''
     training_or_data = np.array([[0,0],[0,1],[1,0],[1,1]])
