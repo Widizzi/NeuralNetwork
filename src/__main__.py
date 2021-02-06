@@ -6,7 +6,7 @@ import src.bin.genetic_xor.Main as genetic_xor
 def switch(project):
     Projects = {
         # add the main func of projects to this dictionary to run them with command line arguments
-        "xor": genetic_xor.run
+        "gen-xor": genetic_xor.run
     }
     return Projects.get(project, "No such project")
 
